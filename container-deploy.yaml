@@ -12,8 +12,8 @@ data:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-name: privategpt-app
-namespace: pedemo-yuiv-user11
+  name: privategpt-app
+  namespace: pedemo-yuiv-user11
 spec:
 replicas: 1
 selector:
